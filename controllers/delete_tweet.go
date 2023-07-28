@@ -5,7 +5,6 @@ import (
 	"TwitterApi/utils"
 	"github.com/gin-gonic/gin"
 )
-
 func DeleteTweet(c *gin.Context) {
 	var request models.UnTweet
 	err := c.ShouldBindJSON(&request)
